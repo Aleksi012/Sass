@@ -39,7 +39,6 @@ button {
 .col {
     width: 0px;
     color: $bg-color;
-    
 }
 
 .row {
@@ -50,4 +49,6 @@ button {
     color: black;
 }
 
-
+nav-item + a {
+    font-size: 400px !important;
+}
