@@ -1,25 +1,26 @@
+$bg-color: white;
+
 #navbar {
     background-color: rgb(39, 39, 233) !important;
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 
 #historia {
-    color: white;
+    color: $bg-color;
 }
 
 #nykyaika {
-    color: white;
+    color: $bg-color;
 }
 
 .navbar-brand {
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 body {
-    
     background-color: rgb(247, 255, 130);
 }
 
@@ -37,7 +38,7 @@ button {
 
 .col {
     width: 0px;
-    color: white;
+    color: $bg-color;
     
 }
 

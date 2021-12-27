@@ -1,11 +1,14 @@
+$bg-color: white;
+$bg-padding: 50px;
+
 #navbar {
     background-color: rgb(39, 39, 233) !important;
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 #historia {
-    color: white;
+    color: $bg-color;
 }
 
 #nykyaika {
@@ -14,7 +17,7 @@
 
 .navbar-brand {
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 body { 
@@ -26,9 +29,12 @@ body {
 }
 
 .accordion {
-    padding-top: 50px;  
+    /*padding-top: 50px;*/
+    padding-top: $bg-padding;
 }
 
 img {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
+    padding-top: $bg-padding;
 }
+

@@ -1,3 +1,5 @@
+$bg-color: white;
+
 #leedslogo {
     padding: 20px;
 }
@@ -41,20 +43,20 @@ body {
 #navbar {
     background-color: rgb(39, 39, 233) !important;
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 .navbar-brand {
     font-size: 30px;
-    color: white !important;
+    color: $bg-color !important;
 }
 
 #historia {
-    color: white;
+    color: $bg-color;
 }
 
 #nykyaika {
-    color: white;
+    color: $bg-color;
 }
 
 
