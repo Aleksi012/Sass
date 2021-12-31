@@ -4,14 +4,16 @@
   color: white !important;
 }
 
+/*
 #historia {
-  color: white;
+    color: $bg-color;
 }
-
+*/
+/*
 #nykyaika {
-  color: white;
+    color: white;
 }
-
+*/
 .navbar-brand {
   font-size: 30px;
   color: white !important;
@@ -33,6 +35,11 @@ body {
 img {
   /*padding-top: 50px;*/
   padding-top: 50px;
+}
+
+a[target] {
+  color: white !important;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=built_historia.css.map */

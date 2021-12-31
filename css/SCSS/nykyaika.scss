@@ -6,14 +6,17 @@ $bg-color: white;
     color: $bg-color !important;
 }
 
-
+/*
 #historia {
     color: $bg-color;
 }
+*/
 
+/*
 #nykyaika {
     color: $bg-color;
 }
+*/
 
 .navbar-brand {
     font-size: 30px;
@@ -51,4 +54,9 @@ button {
 
 nav-item + a {
     font-size: 400px !important;
+}
+
+a[target] {
+    color: $bg-color !important;
+    font-size: 32px;
 }

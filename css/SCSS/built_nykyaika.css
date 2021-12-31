@@ -4,14 +4,16 @@
   color: white !important;
 }
 
+/*
 #historia {
-  color: white;
+    color: $bg-color;
 }
-
+*/
+/*
 #nykyaika {
-  color: white;
+    color: $bg-color;
 }
-
+*/
 .navbar-brand {
   font-size: 30px;
   color: white !important;
@@ -48,6 +50,11 @@ button {
 
 nav-item + a {
   font-size: 400px !important;
+}
+
+a[target] {
+  color: white !important;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=built_nykyaika.css.map */

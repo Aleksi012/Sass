@@ -7,13 +7,17 @@ $bg-padding: 50px;
     color: $bg-color !important;
 }
 
+/*
 #historia {
     color: $bg-color;
 }
+*/
 
+/*
 #nykyaika {
     color: white;
 }
+*/
 
 .navbar-brand {
     font-size: 30px;
@@ -38,3 +42,7 @@ img {
     padding-top: $bg-padding;
 }
 
+a[target] {
+    color: $bg-color !important;
+    font-size: 32px;
+}
